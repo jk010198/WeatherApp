@@ -33,5 +33,9 @@ class TommorowWeatherActivity : AppCompatActivity() {
         viewmodel.data.observe(this, Observer {
             binding.recyclerViewForecast.adapter = WeatherForecastAdapter(it)
         })
+
+        binding.imageView2.setOnClickListener({
+            onBackPressed()
+        })
     }
 }

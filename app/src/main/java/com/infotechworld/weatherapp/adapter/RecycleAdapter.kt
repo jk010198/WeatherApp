@@ -46,13 +46,6 @@ class RecycleAdapter(val arrayList: WeatherModel) :
                 }
 
             }
-            /*
-            val c = Calendar.getInstance()
-            c.timeInMillis = it.current.dt.toLong() * 1000
-            val d = c.time
-            val sdf = SimpleDateFormat("EEE MMM/dd/yyyy hh:mm:ss")
-            binding.tvDate.text = sdf.format(d)
-             */
         }
     }
 
